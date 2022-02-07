@@ -1,0 +1,22 @@
+.banner{
+    display: flex;
+    height: 500px;
+}
+.container-image img{
+    height: 500px;
+    width: auto;
+}
+.leftbanner{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bannerlogo{
+    font-size: 50px;
+    color: #BDBDBD;
+    font-weight: 300;
+}
+
+

@@ -8,12 +8,11 @@ function Banner() {
          <div className="leftbanner">
             <div className="bannerlogo">
                PROJECT
-               <br />
-               Lorem
-               <br />
+               <div className="bannerlorem">Lorem</div>
             </div>
          </div>
          <div className="container-image">
+            <button className="btn">VEIW PROJECT</button>
             <img src={imagebanner} alt="" />
          </div>
       </div>

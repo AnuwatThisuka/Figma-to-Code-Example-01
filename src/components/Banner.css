@@ -1,10 +1,15 @@
 .banner{
     display: flex;
     height: 500px;
+    width: 100%;
+}
+.container-img{
+    position: absolute;
 }
 .container-image img{
     height: 500px;
     width: auto;
+    position: inherit;
 }
 .leftbanner{
     width: 600px;
@@ -19,4 +24,32 @@
     font-weight: 300;
 }
 
+.bannerlorem {
+    justify-content: center;
+    align-items: center;
+    font-size:64px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.container-image Button {
+    font-size: 13px;
+    background-color: #ffffff;
+    height: 71px;
+    width: 221px;
+    color: #333333;
+    position: absolute;
+    border: none;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+}
+ .container-image Button img {
+     justify-content: center;
+     align-items: center;
+     border: 1px solid red;
+     display: flex;
+     height: 8px;
+     width: 17.2px;
+ }
 
